@@ -13,3 +13,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  user-select: none;
+}

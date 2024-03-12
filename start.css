@@ -19,3 +19,12 @@ body {
   outline: none;
   user-select: none;
 }
+
+#carousel-wrapper {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;

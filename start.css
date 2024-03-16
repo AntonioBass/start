@@ -64,3 +64,17 @@ body {
         align-items: center;
         justify-content: flex-start;
         //background: red;
+
+      &::after {
+          content: attr(data-previous-text);
+          position: absolute;
+          transform: translate(0%, -380px);
+          width: 100%;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          //background: red;
+        }
+      }

@@ -78,3 +78,12 @@ body {
           //background: red;
         }
       }
+#current-option-text2 {
+        font-size: 0.8rem;
+        width: 220px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        //background: green;

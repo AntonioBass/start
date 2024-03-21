@@ -128,3 +128,9 @@ body {
       transform: translate(310px, -50px) rotate(180deg);
     }
   }
+
+  #image {
+      animation: previous-image 0.65s 0.085s;
+    }
+  }
+}
